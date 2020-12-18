@@ -7,7 +7,8 @@
     </head>
     <body>
         <?php 
-
+            $_fumante = false;
+            echo  $_fumante ?  "vc é fumante" : "vc nao é fumante";
         ?>
     </body>
 </html>

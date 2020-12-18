@@ -7,6 +7,10 @@
     </head>
     <body>
         <?php 
+            $_numero1 = 7;
+            $_numero2 = "7";
+
+            echo $_numero1 === $_numero2 ? "sao iguais" : "sao diferentes";
 
         ?>
     </body>

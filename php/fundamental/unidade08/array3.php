@@ -1,5 +1,5 @@
 <?php
-    $_salada = array["Laranja","Uva","Abacate"];
+    $_salada = array("Laranja","Uva","Abacate");
 ?>
 
 <!doctype html>
@@ -11,8 +11,7 @@
 
     <body>
         <?php 
-            $_1telefone = "Matheus Fontenelle"; 
-            echo $_1telefone;
+            eCHO "EXISTE O ELEMENTO? " . array_search("Laranja", $_salada);
         ?>
     </body>
 </html>

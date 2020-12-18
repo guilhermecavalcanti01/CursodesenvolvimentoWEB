@@ -7,7 +7,22 @@
     </head>
     <body>
         <?php 
+            $_dia = "quarta";
+            switch ($_dia) {
+                case "segunda":
+                    echo "hoje é segunda";
+                    break;
+                case "terca":
+                    echo "hoje é terca";
+                    break;
+                case "quarta":
+                    echo "hoje é quarta";
+                break;    
 
+
+
+
+            }
         ?>
     </body>
 </html>

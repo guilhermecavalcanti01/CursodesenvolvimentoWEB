@@ -7,7 +7,16 @@
     </head>
     <body>
         <?php 
-
+            $_a = 99;
+            $_b = 99;
+            
+            if( $_a > $_b )  {
+                echo "A é maior do que B";
+            } else if($_a < $_b) {
+                echo "A é menor do que B";
+            } else {
+                echo "A é igual a B";
+            }
         ?>
     </body>
 </html>

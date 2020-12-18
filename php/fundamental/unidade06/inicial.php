@@ -6,9 +6,10 @@
     </head>
 
     <body>
-        <?php 
-            $_1telefone = "Matheus Fontenelle"; 
-            echo $_1telefone;
-        ?>
+        <p> <?php
+            // comentario em PHP 
+            echo "Guilherme"; 
+            ?>
+        </p>
     </body>
 </html>
